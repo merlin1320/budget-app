@@ -91,9 +91,6 @@ const ManageBudget = () => {
           value={newEntry.amount}
           onChange={(e) => setNewEntry({ ...newEntry, amount: e.target.value })}
         />
-        <button onClick={() => console.log("income: ", totalIncome)}>
-          Test
-        </button>
         <button onClick={() => handleAddEntry("income")}>Add Income</button>
         <button onClick={() => handleAddEntry("expenses")}>Add Expense</button>
       </div>
