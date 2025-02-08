@@ -14,5 +14,8 @@ export default defineConfig({
       include:['src/**']
     },
     environment:'jsdom',
+  },
+  define: {
+    global: {}
   }
 })
