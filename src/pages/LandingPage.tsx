@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 
 export const LandingPage = () => {
     useEffect(()=>{
@@ -9,7 +9,7 @@ export const LandingPage = () => {
         }
     })
   return (
-    <div>Landing</div>
+    <div>Landing Home Page</div>
   )
 }
 

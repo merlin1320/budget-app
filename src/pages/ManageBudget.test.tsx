@@ -6,6 +6,6 @@ import "@testing-library/jest-dom";
 describe("ManageBudget Component", () => {
   it("renders the About text", () => {
     render(<ManageBudget />);
-    expect(screen.getByText("Budget")).toBeInTheDocument()
+    expect(screen.getByText("My Budget")).toBeInTheDocument()
   });
 });

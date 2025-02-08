@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 export const ManageBudget = () => {
   useEffect(() => {
@@ -8,7 +8,7 @@ export const ManageBudget = () => {
       document.title = "My App";
     };
   });
-  return <div>Budget</div>;
+  return <div>My Budget</div>;
 };
 
 export default ManageBudget;

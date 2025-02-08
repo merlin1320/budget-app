@@ -10,7 +10,7 @@ export default defineConfig({
     globals:true,
     coverage: {
       enabled: true,
-      exclude:['src/main.tsx'],
+      exclude:['src/main.tsx', 'src/vite-env.d.ts'],
       include:['src/**']
     },
     environment:'jsdom',

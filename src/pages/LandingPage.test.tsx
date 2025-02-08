@@ -6,6 +6,6 @@ import "@testing-library/jest-dom";
 describe("LandingPage Component", () => {
   it("renders the About text", () => {
     render(<LandingPage />);
-    expect(screen.getByText("Landing")).toBeInTheDocument()
+    expect(screen.getByText("Landing Home Page")).toBeInTheDocument()
   });
 });

@@ -11,7 +11,7 @@ describe("App Component Routing", () => {
         <App />
       </MemoryRouter>
     );
-    expect(screen.getByText("Landing Page")) // Ensure this matches text from LandingPage
+    expect(screen.getByText("Landing Home Page")) // Ensure this matches text from LandingPage
       .toBeInTheDocument();
   });
 
@@ -21,7 +21,7 @@ describe("App Component Routing", () => {
         <App />
       </MemoryRouter>
     );
-    expect(screen.getByText("About")) // Ensure this matches text from AboutPage
+    expect(screen.getByText("About Us")) // Ensure this matches text from AboutPage
       .toBeInTheDocument();
   });
 
@@ -31,7 +31,7 @@ describe("App Component Routing", () => {
         <App />
       </MemoryRouter>
     );
-    expect(screen.getByText("Manage Budget")) // Ensure this matches text from ManageBudget
+    expect(screen.getByText("My Budget")) // Ensure this matches text from ManageBudget
       .toBeInTheDocument();
   });
 
@@ -41,6 +41,6 @@ describe("App Component Routing", () => {
         <App />
       </MemoryRouter>
     );
-    expect(screen.getByRole("navigation")).toBeInTheDocument();
+    expect(screen.getByTestId("navigation")).toBeInTheDocument();
   });
 });

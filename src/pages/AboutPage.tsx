@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
 export const AboutPage = () => {
   useEffect(() => {
@@ -8,7 +8,7 @@ export const AboutPage = () => {
       document.title = "My App";
     };
   });
-  return <div>About</div>;
+  return <div>About Us</div>;
 };
 
 export default AboutPage;

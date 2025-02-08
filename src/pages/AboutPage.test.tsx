@@ -6,6 +6,6 @@ import "@testing-library/jest-dom";
 describe("AboutPage Component", () => {
   it("renders the About text", () => {
     render(<AboutPage />);
-    expect(screen.getByText("About")).toBeInTheDocument()
+    expect(screen.getByText("About Us")).toBeInTheDocument()
   });
 });
