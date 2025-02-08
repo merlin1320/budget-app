@@ -8,7 +8,7 @@ import NavBar from "./NavBar";
 function App() {
   return (
     <>
-        <NavBar/>
+        <NavBar data-testid='navigation'/>
       <Routes>
           <Route element={<LandingPage />} path="/" />
           <Route element={<ManageBudget />} path="/budget" />
